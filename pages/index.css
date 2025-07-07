@@ -62,11 +62,6 @@
   position: relative;
 }
 
-.header__coffee_shop_text {
-  display: flex;
-  flex-direction: column;
-}
-
 .header__span-accent {
   color: #3f96f3;
   font-style: italic;
