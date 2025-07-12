@@ -16,9 +16,14 @@
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
+}
+
+.nav__link:hover {
+  opacity: 50%;
 }
