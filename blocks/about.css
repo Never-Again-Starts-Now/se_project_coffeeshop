@@ -5,11 +5,11 @@
   justify-content: space-between;
   overflow: hidden;
   box-sizing: border-box;
-  padding: 0 80px 173px 80px;
+  padding: 100px 80px 173px;
 }
 
 .about__title {
-  margin-top: 100px;
+  margin-top: 0;
   max-width: 251px;
   color: white;
   z-index: 2;
@@ -29,7 +29,7 @@
   max-width: 660px;
   color: white;
   margin: 0 0 20px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

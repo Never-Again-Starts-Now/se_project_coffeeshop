@@ -1,6 +1,8 @@
 .nav__logo {
   height: 39px;
   width: 105px;
+  position: relative;
+  left: -50px;
 }
 
 .nav__links {

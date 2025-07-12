@@ -2,11 +2,12 @@
   height: 800px;
   display: flex;
   flex-direction: column;
-  padding: 30px 80px 40px 30px;
+  padding: 30px 80px 40px;
   background-color: #fff;
   position: relative;
   box-sizing: border-box;
   background: url("../images/background_header.svg") right top no-repeat;
+  z-index: 0;
 }
 
 .header__image {
@@ -15,6 +16,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1px;
 }
 
 .header__footer {
@@ -23,13 +25,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
-  padding: 50px;
 }
 
 .header__paragraph {
@@ -49,14 +50,13 @@
 }
 
 .header__content {
-  padding: 0 0 0 50px;
   position: relative;
 }
 
 .header__span-accent {
   color: #3f96f3;
   font-style: italic;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
